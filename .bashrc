@@ -14,6 +14,10 @@ PS1='[\u@\h \W]\$ '
 #/usr/bin/pipewire-pulse
 #/usr/bin/pipewire-media-session
 
+#Making nvim by default SUDO_EDITOR
+SUDO_EDITOR=/usr/bin/nvim 
+export SUDO_EDITOR
+
 # adding flutter to PATH and at the 1st position
 export PATH=/opt/flutter/bin/:$PATH
 # Making google-chrome-stable executable visible to terminal

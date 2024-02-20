@@ -71,7 +71,7 @@ return {
       vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
     end
 
- -- configure rust server
+  -- configure rust server
     lspconfig.rust_analyzer.setup({
       capabilities = capabilities,
       on_attach = on_attach,
@@ -85,8 +85,10 @@ return {
         },
       },
     })
-
-    -- configure dart and flutter lsp
+  
+  -- configure emmet server for hmtl
+  --lspconfig.emmet
+  -- configure dart and flutter lsp
     lspconfig.dartls.setup({
       on_attach = on_attach,
       settings = {
