@@ -1,0 +1,77 @@
+
+daemonize
+
+ignore-empty-password
+font="JetBrainsMono Nerd Font"
+
+
+clock
+datestr=%a, %B %e
+timestr=%I:%M %p
+
+# Add current sreenshot as wallpaper
+screenshot
+
+# Add an image as a background
+#image=$HOME/.cache/...
+
+# Fade in time
+fade-in=0.3
+
+
+# Effect for background
+effect-blur=15x15
+effect-vignette=1:1
+effect-pixelate=5
+effect-grayscale
+
+# Show/Hide inidicator circle
+indicator
+
+# Smaller indicator
+#indicator-radius=200
+
+# Bigger indicator
+indicator-radius=360
+
+indicator-thickness=20
+indicator-caps-lock
+
+# Define all colors
+
+key-hl-color=eb6f92
+separator-color=00000000
+
+bs-hl-color=31748f
+color=1f1d2e80
+grace-no-mouse
+grace-no-touch
+grace=2
+
+inside-clear-color=1f1d2e
+inside-color=1f1d2e
+inside-ver-color=1f1d2e
+inside-wrong-color=1f1d2e
+inside-caps-lock-color=ffffff00
+
+line-clear-color=1f1d2e
+line-color=1f1d2e
+line-ver-color=eb6f92
+line-wrong-color=1f1d2e
+line-caps-lock-color=ffffff
+
+ring-clear-color=9ccfd8
+ring-color=191724
+ring-ver-color=eb6f92
+ring-wrong-color=31748f
+ring-caps-lock-color=ffffff
+
+text-caps-lock-color=""
+text-clear-color=e0def4
+text-color=e0def4
+text-ver-color=e0def4
+text-wrong-color=31748f
+
+
+
+show-failed-attempts

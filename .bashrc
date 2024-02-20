@@ -26,4 +26,5 @@ export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 eval "$(starship init bash)"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.local/lib/mojo
-export PATH=$PATH:~/.modular/pkg/packages.modular.com_mojo/bin/
+export PATH=$PATH:$HOME/.modular/pkg/packages.modular.com_mojo/bin/
+export PATH=$PATH:$HOME/.cargo/bin/
