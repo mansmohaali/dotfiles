@@ -1,1 +1,1 @@
-Bismillahir Rahmanir Raheem (Arabic: 'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ) 
+Bismillahi Ar-Rahmani Ar-Raheem (Arabic: 'بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ) 
