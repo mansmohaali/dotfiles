@@ -22,6 +22,7 @@ opt.cursorline = true
 opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
+--opt.t_Co = 256   -- for nvim-highlight-color
 
 -- backsapse
 opt.backspace = "indent,eol,start"
