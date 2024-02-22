@@ -1,5 +1,5 @@
- -- FILE THAT DONT NEED EXTRA CONFIGUTATION
- return {
- -- vim-tmux
-  "christoomey/vim-tmux-navigator",
- }
+-- Plugins that do not need any setup
+return {
+  -- plenary
+  "nvim-lua/plenary.nvim",
+}

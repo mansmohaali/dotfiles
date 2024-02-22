@@ -1,6 +1,6 @@
-return {
-  "sxw/vim-maximizer", 
+return{
+  "szw/vim-maximizer",
   keys = {
-    { "<leader>sm", "<cmd>MaximixerToggle<CR>"}
+    { "<leader>m", ":MaximizerToggle<CR>"}
   }
 }
