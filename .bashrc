@@ -29,3 +29,17 @@ eval "$(zoxide init --cmd cd bash)"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.local/lib/mojo
 export PATH=$PATH:$HOME/.modular/pkg/packages.modular.com_mojo/bin/
 export PATH=$PATH:$HOME/.cargo/bin/
+
+# Use bash-completion, if available
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
+    . /usr/share/bash-completion/bash_completion
+
+
+# Tmux auto reload session after reboot or system crash
+alias mux='pgrep -vx tmux > /dev/null && \
+        tmux new -d -s delete-me && \
+        tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh && \
+        tmux kill-session -t delete-me && \
+        tmux attach || tmux attach'
+
+

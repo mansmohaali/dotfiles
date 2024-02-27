@@ -4,7 +4,9 @@ return {
     require('smoothcursor').setup({
       type = "exp",           -- Cursor movement calculation method, choose "default", "exp" (exponential) or "matrix".
 
-      cursor = " " ,              -- Cursor shape (requires Nerd Font). Disabled in fancy mode.
+     cursor = " " ,              -- Cursor shape (requires Nerd Font). Disabled in fancy mode.
+
+      -- cursor = " 󰙡 " ,
 
       texthl = "SmoothCursor",   -- Highlight group. Default is { bg = nil, fg = "#FFD400" }. Disabled in fancy mode.
       linehl = nil,              -- Highlights the line under the cursor, similar to 'cursorline'. "CursorLine" is recommended. Disabled in fancy mode.

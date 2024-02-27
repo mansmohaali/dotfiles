@@ -5,9 +5,32 @@
   // "width": 1280, // Waybar width
   "spacing": 4, // Gaps between modules (4px)
   // Choose the order of the modules
-  "modules-left": ["hyprland/workspaces", "hyprland/mode", "hyprland/scratchpad", "custom/media"],
-  "modules-center": ["hyprland/window"],
-  "modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "sway/language", "battery", "battery#bat2", "clock", "tray"],
+  "modules-left": [
+    "hyprland/workspaces",
+    "hyprland/mode",
+    "hyprland/scratchpad", 
+    "custom/media"
+  ],
+  "modules-center": [
+    "hyprland/window",
+  ],
+  "modules-right": [
+    //"mpd", 
+    //"idle_inhibitor", 
+    "keyboard-state",
+    "pulseaudio", 
+    "network", 
+    "cpu",
+    "memory", 
+    //"temperature", 
+    //"backlight",
+   // "hyprland/language", 
+    "battery",
+    //"battery#bat2",
+    "clock",
+    "custom/exit",
+    "tray",
+  ],
   // Modules configuration
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -91,6 +114,7 @@
   },
   "cpu": {
     "format": "{usage}% ",
+    "on-click": "alacritty -e htop",
     "tooltip": false
   },
   "memory": {
@@ -165,6 +189,11 @@
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
     // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-  }
+  },
+
+  "custom/exit": {
+    "format": "  ",
+    "on-click": "alacritty -e wlogout",
+  },
 }
 
