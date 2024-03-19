@@ -42,4 +42,4 @@ alias mux='pgrep -vx tmux > /dev/null && \
         tmux kill-session -t delete-me && \
         tmux attach || tmux attach'
 
-
+alias demux='tmux kill-session -t delete-me' 
