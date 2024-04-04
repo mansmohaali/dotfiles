@@ -11,7 +11,17 @@ matches:
   # Simple text replacement
   - trigger: ":espanso"
     replace: "Hi there!"
-
+  - trigger: ":mma"
+    replace: "Mansoor Mohamed Ali"
+  - trigger: ":pb"
+    replace: "mansoormohaali@gmail.com"
+  - trigger: ":pp"
+    replace: "mansmohaali@gmail.com"
+  - trigger: ":me"
+    replace: "Mene2008"
+  - trigger: ":m*"
+    replace: "Mene2008*"
+    
   # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
 
   # But matches can also be dynamic:
