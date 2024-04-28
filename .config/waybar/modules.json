@@ -198,9 +198,10 @@
     "tooltip": false
   },    
 
+  
   // Power Menu
   "custom/exit": {
-    "format": "",
+    "format": "Exit",
     "on-click": "wlogout",
     "tooltip": false
   },
@@ -271,11 +272,11 @@
       "transition-left-to-right": false
     },        
     "modules": [
-      "custom/system",
+      //"custom/system",
       "disk",
       "cpu",
-      "memory",
-      "hyprland/language"
+      "memory"
+      //"hyprland/language"
     ]
   },
 
@@ -312,7 +313,7 @@
     "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
     "tooltip-format-disconnected": "Disconnected",
     "max-length": 50,
-    "on-click": "~/dotfiles/.settings/networkmanager.sh"
+    "on-click": "nm-connection-editor"
   },
 
   // Battery
@@ -341,13 +342,13 @@
     "format-source": "{volume}% ",
     "format-source-muted": "",
     "format-icons": {
-      "headphone": " ",
-      "hands-free": " ",
-      "headset": " ",
+      "headphone": " ",
+      "hands-free": " ",
+      "headset": " " ,
       "phone": " ",
       "portable": " ",
       "car": " ",
-      "default": [" ", " ", " "]
+      //"default": [" ", " ", " "]
     },
     "on-click": "pavucontrol"
   },
