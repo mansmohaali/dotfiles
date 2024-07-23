@@ -15,6 +15,8 @@ matches:
     replace: "Mansoor Mohamed Ali"
   - trigger: ":pb"
     replace: "mansoormohaali@gmail.com"
+  - trigger: ":nn"
+    replace: "mmoham18@charlotte.edu`"
   - trigger: ":pp"
     replace: "mansmohaali@gmail.com"
   - trigger: ":home"
