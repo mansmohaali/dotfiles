@@ -17,6 +17,8 @@ matches:
     replace: "mansoormohaali@gmail.com"
   - trigger: ":pp"
     replace: "mansmohaali@gmail.com"
+  - trigger: ":home"
+    replace: "10906 Featherbrook rd, Apt 2C, 28262, NC"
   - trigger: ":me"
     replace: "Mene2008"
   - trigger: ":m*"
